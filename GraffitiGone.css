@@ -1,14 +1,14 @@
 html, 
 body {
-	margin:0;
-	padding:0;
+	margin: 0 auto;
+	padding: 0 auto;
 }
 
 .navBarOne {
 	background-color: #800000;
 }
 
-a {
+.navA {
 	color: white;
 	text-decoration: none;
 	display: block;
@@ -30,12 +30,22 @@ body {
 
 h1 {
 	text-align: center;
-	font-size: 40px;
+	font-size: 80px;
+	color: white;
 }
 
 h3 {
 	text-align: center;
 	color: white;
+}
+
+h5 {
+	text-align: center;
+	color: white;
+}
+
+p {
+	text-align: center;
 }
 
 .buttonWrapper {
@@ -47,6 +57,8 @@ h3 {
     border: none;
     color: white;
     padding: 15px 32px;
+    border: 2px solid;
+    border-color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
